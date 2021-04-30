@@ -20,9 +20,9 @@ public class TriggerFunction {
             @KafkaTrigger(
                 //name = "kafkaTriggerMany",
                 name = "kafkaTrigger",
-                topic = "message", 
+                topic = "%TopicName%", 
                 brokerList="%BrokerList%",
-                consumerGroup="myfunc01"
+                consumerGroup="%GroupName%"
 	        //Settings below are only require if you need auth or you do Many messages per trigger	
                 //username = "%ConfluentCloudUsername%", 
                 //password = "%ConfluentCloudPassword%",

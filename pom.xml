@@ -99,7 +99,15 @@
                             <name>BrokerList</name>
 			    <value>wn2-jrs02k.qz1stakpznlepcjn2bzi2treqb.cx.internal.cloudapp.net:9092,wn1-jrs02k.qz1stakpznlepcjn2bzi2treqb.cx.internal.cloudapp.net:9092,wn0-jrs02k.qz1stakpznlepcjn2bzi2treqb.cx.internal.cloudapp.net:9092</value>
 			</property>
-                        <property>
+			<property>
+				<name>TopicName</name>
+				<value>message</value>
+			</property>
+			<property>
+				<name>GroupName</name>
+				<value>myfunc01</value>
+			</property>
+			<property>
                             <name>LD_LIBRARY_PATH</name>
 			    <value>/home/site/wwwroot/bin/runtimes/linux-x64/native</value>
 		    </property>
